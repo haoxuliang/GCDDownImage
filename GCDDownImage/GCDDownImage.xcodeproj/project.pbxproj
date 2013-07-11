@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A225BD721717E7C20010BA17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A225BD711717E7C20010BA17 /* UIKit.framework */; };
+		A225BD741717E7C20010BA17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A225BD731717E7C20010BA17 /* Foundation.framework */; };
+		A225BD761717E7C20010BA17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A225BD751717E7C20010BA17 /* CoreGraphics.framework */; };
+		A225BD7C1717E7C20010BA17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A225BD7A1717E7C20010BA17 /* InfoPlist.strings */; };
+		A225BD7E1717E7C20010BA17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A225BD7D1717E7C20010BA17 /* main.m */; };
+		A225BD821717E7C20010BA17 /* CGDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A225BD811717E7C20010BA17 /* CGDAppDelegate.m */; };
+		A225BD841717E7C20010BA17 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A225BD831717E7C20010BA17 /* Default.png */; };
+		A225BD861717E7C20010BA17 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A225BD851717E7C20010BA17 /* Default@2x.png */; };
+		A225BD881717E7C20010BA17 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A225BD871717E7C20010BA17 /* Default-568h@2x.png */; };
+		A225BD8B1717E7C20010BA17 /* CGDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A225BD8A1717E7C20010BA17 /* CGDViewController.m */; };
+		A225BD8E1717E7C20010BA17 /* CGDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A225BD8C1717E7C20010BA17 /* CGDViewController.xib */; };
+		A225BD961717E80A0010BA17 /* ImageFromUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = A225BD951717E80A0010BA17 /* ImageFromUrl.m */; };
+		A225BD991717FD300010BA17 /* PhotoGallery.m in Sources */ = {isa = PBXBuildFile; fileRef = A225BD981717FD300010BA17 /* PhotoGallery.m */; };
+		A225BD9E171807DA0010BA17 /* BigPhotoVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A225BD9C171807DA0010BA17 /* BigPhotoVCViewController.m */; };
+		A225BD9F171807DA0010BA17 /* BigPhotoVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A225BD9D171807DA0010BA17 /* BigPhotoVCViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A225BD6E1717E7C20010BA17 /* GCDDownImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDDownImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A225BD711717E7C20010BA17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A225BD731717E7C20010BA17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A225BD751717E7C20010BA17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A225BD791717E7C20010BA17 /* GCDDownImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GCDDownImage-Info.plist"; sourceTree = "<group>"; };
+		A225BD7B1717E7C20010BA17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A225BD7D1717E7C20010BA17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A225BD7F1717E7C20010BA17 /* GCDDownImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCDDownImage-Prefix.pch"; sourceTree = "<group>"; };
+		A225BD801717E7C20010BA17 /* CGDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDAppDelegate.h; sourceTree = "<group>"; };
+		A225BD811717E7C20010BA17 /* CGDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGDAppDelegate.m; sourceTree = "<group>"; };
+		A225BD831717E7C20010BA17 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A225BD851717E7C20010BA17 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A225BD871717E7C20010BA17 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A225BD891717E7C20010BA17 /* CGDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDViewController.h; sourceTree = "<group>"; };
+		A225BD8A1717E7C20010BA17 /* CGDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGDViewController.m; sourceTree = "<group>"; };
+		A225BD8D1717E7C20010BA17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CGDViewController.xib; sourceTree = "<group>"; };
+		A225BD941717E80A0010BA17 /* ImageFromUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFromUrl.h; sourceTree = "<group>"; };
+		A225BD951717E80A0010BA17 /* ImageFromUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFromUrl.m; sourceTree = "<group>"; };
+		A225BD971717FD300010BA17 /* PhotoGallery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoGallery.h; sourceTree = "<group>"; };
+		A225BD981717FD300010BA17 /* PhotoGallery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoGallery.m; sourceTree = "<group>"; };
+		A225BD9B171807DA0010BA17 /* BigPhotoVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigPhotoVCViewController.h; sourceTree = "<group>"; };
+		A225BD9C171807DA0010BA17 /* BigPhotoVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigPhotoVCViewController.m; sourceTree = "<group>"; };
+		A225BD9D171807DA0010BA17 /* BigPhotoVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigPhotoVCViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A225BD6B1717E7C20010BA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A225BD721717E7C20010BA17 /* UIKit.framework in Frameworks */,
+				A225BD741717E7C20010BA17 /* Foundation.framework in Frameworks */,
+				A225BD761717E7C20010BA17 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A225BD651717E7C20010BA17 = {
+			isa = PBXGroup;
+			children = (
+				A225BD771717E7C20010BA17 /* GCDDownImage */,
+				A225BD701717E7C20010BA17 /* Frameworks */,
+				A225BD6F1717E7C20010BA17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A225BD6F1717E7C20010BA17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A225BD6E1717E7C20010BA17 /* GCDDownImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A225BD701717E7C20010BA17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A225BD711717E7C20010BA17 /* UIKit.framework */,
+				A225BD731717E7C20010BA17 /* Foundation.framework */,
+				A225BD751717E7C20010BA17 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A225BD771717E7C20010BA17 /* GCDDownImage */ = {
+			isa = PBXGroup;
+			children = (
+				A225BD801717E7C20010BA17 /* CGDAppDelegate.h */,
+				A225BD811717E7C20010BA17 /* CGDAppDelegate.m */,
+				A225BD891717E7C20010BA17 /* CGDViewController.h */,
+				A225BD8A1717E7C20010BA17 /* CGDViewController.m */,
+				A225BD8C1717E7C20010BA17 /* CGDViewController.xib */,
+				A225BD9B171807DA0010BA17 /* BigPhotoVCViewController.h */,
+				A225BD9C171807DA0010BA17 /* BigPhotoVCViewController.m */,
+				A225BD9D171807DA0010BA17 /* BigPhotoVCViewController.xib */,
+				A225BD9A171807A90010BA17 /* PhotoGallery */,
+				A225BD781717E7C20010BA17 /* Supporting Files */,
+			);
+			path = GCDDownImage;
+			sourceTree = "<group>";
+		};
+		A225BD781717E7C20010BA17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A225BD791717E7C20010BA17 /* GCDDownImage-Info.plist */,
+				A225BD7A1717E7C20010BA17 /* InfoPlist.strings */,
+				A225BD7D1717E7C20010BA17 /* main.m */,
+				A225BD7F1717E7C20010BA17 /* GCDDownImage-Prefix.pch */,
+				A225BD831717E7C20010BA17 /* Default.png */,
+				A225BD851717E7C20010BA17 /* Default@2x.png */,
+				A225BD871717E7C20010BA17 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A225BD9A171807A90010BA17 /* PhotoGallery */ = {
+			isa = PBXGroup;
+			children = (
+				A225BD941717E80A0010BA17 /* ImageFromUrl.h */,
+				A225BD951717E80A0010BA17 /* ImageFromUrl.m */,
+				A225BD971717FD300010BA17 /* PhotoGallery.h */,
+				A225BD981717FD300010BA17 /* PhotoGallery.m */,
+			);
+			name = PhotoGallery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A225BD6D1717E7C20010BA17 /* GCDDownImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A225BD911717E7C20010BA17 /* Build configuration list for PBXNativeTarget "GCDDownImage" */;
+			buildPhases = (
+				A225BD6A1717E7C20010BA17 /* Sources */,
+				A225BD6B1717E7C20010BA17 /* Frameworks */,
+				A225BD6C1717E7C20010BA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDDownImage;
+			productName = GCDDownImage;
+			productReference = A225BD6E1717E7C20010BA17 /* GCDDownImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A225BD661717E7C20010BA17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CGD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = LeoHao;
+			};
+			buildConfigurationList = A225BD691717E7C20010BA17 /* Build configuration list for PBXProject "GCDDownImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A225BD651717E7C20010BA17;
+			productRefGroup = A225BD6F1717E7C20010BA17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A225BD6D1717E7C20010BA17 /* GCDDownImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A225BD6C1717E7C20010BA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A225BD7C1717E7C20010BA17 /* InfoPlist.strings in Resources */,
+				A225BD841717E7C20010BA17 /* Default.png in Resources */,
+				A225BD861717E7C20010BA17 /* Default@2x.png in Resources */,
+				A225BD881717E7C20010BA17 /* Default-568h@2x.png in Resources */,
+				A225BD8E1717E7C20010BA17 /* CGDViewController.xib in Resources */,
+				A225BD9F171807DA0010BA17 /* BigPhotoVCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A225BD6A1717E7C20010BA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A225BD7E1717E7C20010BA17 /* main.m in Sources */,
+				A225BD821717E7C20010BA17 /* CGDAppDelegate.m in Sources */,
+				A225BD8B1717E7C20010BA17 /* CGDViewController.m in Sources */,
+				A225BD961717E80A0010BA17 /* ImageFromUrl.m in Sources */,
+				A225BD991717FD300010BA17 /* PhotoGallery.m in Sources */,
+				A225BD9E171807DA0010BA17 /* BigPhotoVCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A225BD7A1717E7C20010BA17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A225BD7B1717E7C20010BA17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A225BD8C1717E7C20010BA17 /* CGDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A225BD8D1717E7C20010BA17 /* en */,
+			);
+			name = CGDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A225BD8F1717E7C20010BA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A225BD901717E7C20010BA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A225BD921717E7C20010BA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GCDDownImage/GCDDownImage-Prefix.pch";
+				INFOPLIST_FILE = "GCDDownImage/GCDDownImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A225BD931717E7C20010BA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GCDDownImage/GCDDownImage-Prefix.pch";
+				INFOPLIST_FILE = "GCDDownImage/GCDDownImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A225BD691717E7C20010BA17 /* Build configuration list for PBXProject "GCDDownImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A225BD8F1717E7C20010BA17 /* Debug */,
+				A225BD901717E7C20010BA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A225BD911717E7C20010BA17 /* Build configuration list for PBXNativeTarget "GCDDownImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A225BD921717E7C20010BA17 /* Debug */,
+				A225BD931717E7C20010BA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A225BD661717E7C20010BA17 /* Project object */;
+}
